@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="RWA.master.cs" Inherits="ResumeWebApp.RWA" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="ResumeSS.css" />
+</head>
+<body>
+   <div id="header">
+        <div id="headcenter">
+                Michael C's Personal Site
+            </div>
+            <ul class="top">
+                <li><a>Resume</a></li>
+                <li><a>Projects</a>
+                    <ul class="subtop">
+                        <li><a href="#">Travel Log</a></li>
+                        <li><a href="#">Games Played</a></li>
+                    </ul>
+                </li>
+            </ul>
+    </div>
+</body>
+</html>
