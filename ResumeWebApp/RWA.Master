@@ -22,9 +22,17 @@
                         <li><a href="#">Games Played</a></li>
                     </ul>
                 </li>
+                <li><a href="#">Sample Code</a>
+                   <ul class="subtop">
+                       <li><a href="#">C#</a></li>
+                       <li><a href="#">SQL Server queries</a></li>
+                       <li><a href="#">Ruby</a></li>
+                   </ul>
+                </li>
+                <li><a href="#">Contact Info</a></li>
             </ul>
     </div>
-    <div id="leftside">
+    <div id="main">
     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         <h2>Contact Info</h2>
     </asp:ContentPlaceHolder>

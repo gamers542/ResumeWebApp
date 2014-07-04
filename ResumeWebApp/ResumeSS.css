@@ -2,6 +2,7 @@
 {
     background-color:aqua;
     font-family: sans-serif;
+    height:100%;
 }
 #header 
 {
@@ -42,9 +43,10 @@
 { 
     display: block; 
 }
-#leftside 
+#main 
 {
     background-color:red;
+    height:1;
 }
 #footer 
 {
