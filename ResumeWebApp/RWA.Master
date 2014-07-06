@@ -15,7 +15,13 @@
                 Michael C's Personal Site
             </div>
             <ul class="top">
-                <li><a>Resume</a></li>
+                <li><a href="Home.aspx">Home</a></li>
+                <li><a>Resume</a>
+                    <ul class="subtop">
+                        <li><a href="#">Online Version</a></li>
+                        <li><a href="resume.doc">Downloadable Version</a></li>
+                    </ul>
+                </li>
                 <li><a>Projects</a>
                     <ul class="subtop">
                         <li><a href="#">Travel Log</a></li>
@@ -29,16 +35,14 @@
                        <li><a href="#">Ruby</a></li>
                    </ul>
                 </li>
-                <li><a href="#">Contact Info</a></li>
+                <li><a href="Contact.aspx">Contact Info</a></li>
             </ul>
     </div>
     <div id="main">
-    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        <h2>Contact Info</h2>
-    </asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
     </div>
     <div id="footer">
-        &copy 2014
+        &copy 2014 by Michael Cumberbatch
     </div>
 </body>
 </html>

@@ -30,23 +30,24 @@
 }
 .top
 { 
-    overflow: hidden; 
+    overflow: hidden;
+    width:100%; 
 }
-.top > li 
-{ 
-    float: left; 
-    width: 100px; 
-    padding: 4px 0; 
-    background: #e0e0e0; 
+.top > li {
+    float: left;
+    width:19.8%;
+    padding: 4px 0;
+    background: #e0e0e0;
+    border-right-style: solid;
+    text-align:center;
 }
 .top > li:hover ul 
 { 
     display: block; 
 }
-#main 
-{
-    background-color:red;
-    height:1;
+#main {
+    text-align: center;
+    padding-top:20px;
 }
 #footer 
 {
