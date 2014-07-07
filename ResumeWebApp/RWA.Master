@@ -18,7 +18,7 @@
                 <li><a href="Home.aspx">Home</a></li>
                 <li><a>Resume</a>
                     <ul class="subtop">
-                        <li><a href="#">Online Version</a></li>
+                        <li><a href="OnlineResume.aspx">Online Version</a></li>
                         <li><a href="resume.doc">Downloadable Version</a></li>
                     </ul>
                 </li>

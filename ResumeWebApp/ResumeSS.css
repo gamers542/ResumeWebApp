@@ -1,6 +1,5 @@
 ﻿body 
 {
-    background-color:aqua;
     font-family: sans-serif;
     height:100%;
 }
@@ -48,6 +47,14 @@
 #main {
     text-align: center;
     padding-top:20px;
+}
+#Table1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#TableRow1 
+{
+
 }
 #footer 
 {

@@ -59,7 +59,9 @@
   <ItemGroup>
     <Content Include="Contact.aspx" />
     <Content Include="Home.aspx" />
+    <Content Include="OnlineResume.aspx" />
     <Content Include="ResumeSS.css" />
+    <Content Include="Test.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -77,6 +79,13 @@
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
+    <Compile Include="OnlineResume.aspx.cs">
+      <DependentUpon>OnlineResume.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OnlineResume.aspx.designer.cs">
+      <DependentUpon>OnlineResume.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RWA.Master.cs">
       <DependentUpon>RWA.Master</DependentUpon>
@@ -84,6 +93,13 @@
     </Compile>
     <Compile Include="RWA.Master.designer.cs">
       <DependentUpon>RWA.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Test.aspx.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Test.aspx.designer.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
